@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header style="background-color: darkgreen; height: 70px;">
+            <img width="50px" src="https://i.ibb.co/SRBxTXT/ram-round.png" alt=""> <b style="color: aliceblue;">COLORADO STATE UNIVERSITY | ENGINEERING TECHNOLOGY SERVICES</b>
+            <ul style="display: flex; gap: 50px;">
+                <li>
+                    <a href="./Virtual.html" style="color: black;">Virtual Classroom</a>
+                </li>
+                <li>
+                    <a href="./VPN.html" style="color: black;">VPN</a>
+                </li>
+                <li>
+                    <a href="./Mapping.html" style="color: black;">Mapping Drives</a>
+                </li>
+                <li>
+                    <a href="./Create.html" style="color: black;">Create Account</a>
+                </li>
+                <li>
+                    <a href="./Reset.html" style="color: black;">Reset Password</a>
+                </li>
+            </ul>
+            
+        </header>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homePege</title>
+</head>
+<body>
+    <div>
+        
+        <main style="max-width: 700px; margin: 0 auto;">
+            <!-- section 1 -->
+            
+            <!-- section 2 -->
+            <section>
+                <h1>HTML Structure</h1>
+                <p>Overview
+                    HTML (HyperText Markup Language) files are, basically, just simple text files that you could create in any text editor. But to be displayed correctly on the  World Wide Web, an HTML document must be structured correctly. Any variation from this structure will cause many web browsers to show the content incorrectly or not at all. Also, all HTML documents must have a suffix of “html” for the HTML code to be viewed correctly by a web browser. <br>
+                   <br> The rule-making body of the Web, the people who determine what this stucture is, is the <span style="cursor: pointer color red"> World Wide Web Consortium </span> (W3C). Web browsers are supposed to follow these standards as close as possible. For the most part they all do well, but some browsers fall quite short of this goal (Internet Explorer being the worst culprit). Nonetheless, it is best when you are creating a web page to follow the current web standards. This will ensure your site is viewable in as many browsers as possible. All HTML instruction on this ETS site follows the W3C standards.</p>
+                    <section>
+                        <h1>Example</h1>
+                        <p>         <code>
+                            <p style="color: #D14F3A; ">
+                                &lt;!DOCTYPE HTML&gt;<br>
+                                &lt;html&gt;<br>
+                                &lt;head&gt;<br>
+                                &lt;meta charset="utf-8"&gt;<br>
+                                &lt;title&gt;A Simple HTML Example&lt;/title&gt;<br>
+                                &lt;style&gt;<br>
+                                p {text-align:center;}<br>
+                                &lt;/style&gt;<br>
+                                &lt;/head&gt;<br>
+                                &lt;body&gt;<br>
+                                &lt;h1&gt;This is a header&lt;/h1&gt;<br>
+                                &lt;p&gt;This is a paragraph, centered on the page.&lt;/p&gt;
+                                &lt;p&gt;And this is the second paragraph with &lt;strong&gt;bold text&lt;/strong&gt;.&lt;/p&gt;<br>
+                                &lt;/body&gt;<br>
+                                &lt;/html&gt;<br>
+                            </p>
+                        </code></p>
+                        <section>
+                            <p>This code generates a page that looks like: <br>
+                                Example shown within a browser <br>
+                                 <br>In the above example, you can see the use of tags which are an essential part of an HTML document. An HTML tag consists of a left angle bracket (), a tag name (such as "h1") and a right angle bracket (). Tags are usually paired so that you have a tag at the beginning and the end of a section of the document ( <span style="color: red;">&lt;h1&gt;</span>and <span style="color: red;">&lt;h1&gt;</span>  for example.) All end tags look identical to the beginning tag except a slash (/) precedes the tag name within the brackets. A pair of tags delineates where the tag's effect should begin and end on the page. The current web standard from W3C suggests that all tag names be lowercase</p>
+                        </section>
+                        <section>
+                            <h1>Attributes</h1>
+                            <p>
+                                Some tags may also include an attribute, which is additional information that is included only within the start tag. Attributes are specific to each tag, although there are many similarities. Some tags must have an attribute to function properly. An example of an attribute is shown in the first paragraph tag shown in the example above ( <span style="color: red;">&lt;p align="center"&gt;</span>.) The web standards suggests that all attribute parameters be contained within quotes. For example, it is not correct to have this: <span style="color: red;"> &lt;p align=center&gt;  </span>
+                            </p>
+                        </section>
+                        <section>
+                        <p>
+                            Also, all nested HTML tags must be ended in the reverse order they were created. For example, this is incorrect:
+                             <span style="color: red;">&lt;h1&lt;b&gt;&lt;i&gt;This is a bold and italic header &lt;/h1&gt; &lt;/i&gt; &lt;/b&gt;</span> Because the <span style="color: red;">&lt;h1&gt; </span> tag was created first, it must be closed last and since the <span style="color: red;">i&gt;</span> tag was created last, it must be closed first. All of the tags must open and close within each other like a set of Russian nesting dolls. <br>
+                             <span style="color: red;">&lt;h1&lt;b&gt;&lt;i&gt;This is a bold and italic header &lt;/h1&gt; &lt;/i&gt; &lt;/b&gt;</span> Because the <span style="color: red;">&lt;h1&gt; </span> tag was created first, it must be closed last and since the <span style="color: red;">i&gt;</span> tag was created last, it must be closed first. All of the tags must open and close within each other like a set of Russian nesting dolls. <br>
+                           <br> Here is the correct example:<span style="color: red;">&lt;h1&gt;&lt;b&gt;&lt;i&gt;This is a bold and italic header&lt;/i&lt;/b&gt;/h1&gt;</span></p>
+                        </section>
+                        <section>
+                            <h1>Tag Placement</h1>
+                           <p>Within a web page, some HTML tags are required for the page to be displayed correctly. These tags are &lt;html&gt;, &lt;head&gt;,     x   title> and <body>. The <html> tags must begin and end the document and the <head> tags must appear before the <body> tags. Also, the &lt;title&lt; tags must be within the <head> tags. A simple explanation of each of these tags follows:</p>
+                        </section>
+                        <section>
+                            <p>&lt;html&lt; This tag and its end tag must be the first tag (after the Doctype) and the last tag in your document. lt tells the browser that everything within these tags should de viewed as HTML-coded information and should de parsed accordingly by the browser.</p>
+                            <p>&lt;head&lt; This tag and its end tag sets apart the section of your document that will not be visible on your web page but helps the browser in working with the document. Many different tags can be placed within the &lt;head&lt; tags, but in our example above we only have the required tag, &lt;title&lt;.</p>
+                            <p>&lt;title&lt; This is an identifier for the overall content of a document. This is not displayed within your web page, but (usually) at the top of your browser application's window titlebar. For example, this web page's &lt;title&lt; is "ETS - HTML Basics - Structure" as you can see by looking at the titlebar of this browser window. This title is also displayed in a browser's history and bookmarks, so it is best to be descriptive with this tag so that it will understandable out of context.</p>
+                            <p>&lt;body&lt; This tag contains all elements of your document that will appear within a browser's window. This is the content of your document and is where the majority of HTML tags will be placed.</p>
+                            <p>There are many more HTML tags that you will use to create your web page, but these four must always be within your document and ordered in the manner shown in the example above.</p>
+                        </section>
+                    </section>
+            </section>
+        </main>
+        <section>
+           <center><img src="https://www.engr.colostate.edu/wp-content/uploads/2019/03/SCOE-CSU-2-H357.png" alt=""></center> 
+           <center><img src="https://source.colostate.edu/wp-content/uploads/2019/08/CSU-150-Logo.png" alt="" width="220" height="220"></center> 
+        </section>
+        <center>
+            <center>
+                <ul style="display: flex; gap: 100px;">
+                    <li>
+                        <a href="Apply" style="color: black;">Apply</a>
+                    </li>
+                    <li>
+                        <a href="Give" style="color: black;">Give</a>
+                    </li>
+                    <li>
+                        <a href="Visit" style="color: black;">Visit</a>
+                    </li>
+                    <li>
+                        <a href="E-newsletter" style="color: black;">E-newsletter</a>
+                    </li>
+                </ul>
+            </center>
+            <img src="https://www.engr.colostate.edu/wp-content/uploads/2016/05/CSU_StateYourPurposeLines_RGB_357.png" alt="" width="300" height="300">
+            <center>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1280px-YouTube_full-color_icon_%282017%29.svg.png" alt="" width="50px">
+                <img src="https://thumbs.dreamstime.com/b/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F-%D1%8D%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0-facebook-%D0%BF%D0%BE%D0%BF%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%B9-%D0%B7%D0%BD%D0%B0%D1%87%D0%BE%D0%BA-%D0%B2-%D1%81%D0%BE%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85-%D1%81%D0%B5%D1%82%D1%8F%D1%85-%D0%BD%D0%B0-270017372.jpg" alt="" width="50px">
+                <img src="data:image/png;base64,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" alt="" width="50px">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/2048px-Linkedin.svg.png" alt="" width="50px">
+                <img src="https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_960_720.jpg" alt="" width="50px">
+            </center>
+        </center>
+        <div class="container" style="width: 100%;">
+            <header style="background-color: green; height: 270px; width: 100%;">
+                <footer>
+                    <script type="text/javascript" id="#"></script>
+                    <b style="color: aliceblue;">Contact CSU  Epual Opportunity  Privacy Statement Disclaimer</b><br>
+                    <i style="color: aliceblue;">© 2023 Colorado State University, Fort Collins, Colorado 80523 USA</i>
+                    <img src="https://source.colostate.edu/wp-content/themes/csu-theme-source/assets/img/csu-onleline-final.svg" alt="" width="300" height="300">
+                   <center><button style="background-color: greenyellow;">GIVE NOW</button></center>
+                </footer>
+            </header>
+        </div>
+</body>
+</html>
+
+</body>
+</html>
